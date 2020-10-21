@@ -1,0 +1,43 @@
+﻿  Process Explorer.cpp
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(381,46): warning C4474: 'printf' : too many arguments passed for format string
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(381,46): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(445,11): warning C4477: 'wprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'SIZE_T'
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(445,11): message : consider using '%llu' in the format string
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(445,11): message : consider using '%Iu' in the format string
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(445,11): message : consider using '%I64u' in the format string
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(446,11): warning C4477: 'wprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'SIZE_T'
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(446,11): message : consider using '%llu' in the format string
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(446,11): message : consider using '%Iu' in the format string
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(446,11): message : consider using '%I64u' in the format string
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(469,14): warning C4477: 'wprintf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 2 has type 'HMODULE'
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(469,14): warning C4313: 'wprintf': '%X' in format string conflicts with argument 2 of type 'HMODULE'
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(402,17): warning C4101: 'now': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(401,13): warning C4101: 'stime': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(403,9): warning C4101: 'percent': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(400,25): warning C4101: 'fsys': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(400,31): warning C4101: 'fuser': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(400,18): warning C4101: 'fexit': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(402,22): warning C4101: 'sys': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(400,38): warning C4101: 'fstart': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(400,11): warning C4101: 'ftime': unreferenced local variable
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(402,27): warning C4101: 'user': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(1379,30): warning C4244: 'argument': conversion from 'const wchar_t' to 'char', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(1431): message : see reference to function template instantiation 'bool std::_Equal_rev_pred_unchecked<const wchar_t*,const wchar_t*,_Fn>(_InIt1,_InIt2,const _InIt2,_Pr)' being compiled
+          with
+          [
+              _Fn=findStringIC::<lambda_948c31812db76b90ac13edcd3d7acf43>,
+              _InIt1=const wchar_t *,
+              _InIt2=const wchar_t *,
+              _Pr=findStringIC::<lambda_948c31812db76b90ac13edcd3d7acf43>
+          ]
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(124): message : see reference to function template instantiation '_FwdItHaystack std::search<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,findStringIC::<lambda_948c31812db76b90ac13edcd3d7acf43>>(_FwdItHaystack,_FwdItHaystack,const _FwdItPat,const _FwdItPat,_Pr)' being compiled
+          with
+          [
+              _FwdItHaystack=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Elem=wchar_t,
+              _FwdItPat=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Pr=findStringIC::<lambda_948c31812db76b90ac13edcd3d7acf43>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(1379,20): warning C4244: 'argument': conversion from 'const wchar_t' to 'char', possible loss of data
+D:\Code\Process Explorer\Processor explorer\Process Explorer.cpp(394): warning C4715: 'PrintIfTable': not all control paths return a value
+  Processor explorer.vcxproj -> D:\Code\Process Explorer\x64\Debug\Process Explorer.exe

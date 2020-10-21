@@ -1,0 +1,29 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Processor explorer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Process Explorer.cpp
+D:\Code\Processor explorer\Processor explorer\Process Explorer.cpp(293,11): warning C4477: 'wprintf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'FILETIME'
+D:\Code\Processor explorer\Processor explorer\Process Explorer.cpp(296,53): warning C4244: '=': conversion from 'ULONGLONG' to 'double', possible loss of data
+D:\Code\Processor explorer\Processor explorer\Process Explorer.cpp(298,17): warning C4244: '=': conversion from 'ULONGLONG' to 'double', possible loss of data
+D:\Code\Processor explorer\Processor explorer\Process Explorer.cpp(333,14): warning C4477: 'wprintf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 2 has type 'HMODULE'
+D:\Code\Processor explorer\Processor explorer\Process Explorer.cpp(252,13): warning C4101: 'stime': unreferenced local variable
+D:\Code\Processor explorer\Processor explorer\Process Explorer.cpp(251,38): warning C4101: 'fstart': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(1379,30): warning C4244: 'argument': conversion from 'const wchar_t' to 'char', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(1431): message : see reference to function template instantiation 'bool std::_Equal_rev_pred_unchecked<const wchar_t*,const wchar_t*,_Fn>(_InIt1,_InIt2,const _InIt2,_Pr)' being compiled
+          with
+          [
+              _Fn=findStringIC::<lambda_0f26102bbf6c59c3da553c2ba53724ef>,
+              _InIt1=const wchar_t *,
+              _InIt2=const wchar_t *,
+              _Pr=findStringIC::<lambda_0f26102bbf6c59c3da553c2ba53724ef>
+          ]
+D:\Code\Processor explorer\Processor explorer\Process Explorer.cpp(39): message : see reference to function template instantiation '_FwdItHaystack std::search<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,findStringIC::<lambda_0f26102bbf6c59c3da553c2ba53724ef>>(_FwdItHaystack,_FwdItHaystack,const _FwdItPat,const _FwdItPat,_Pr)' being compiled
+          with
+          [
+              _FwdItHaystack=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Elem=wchar_t,
+              _FwdItPat=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Pr=findStringIC::<lambda_0f26102bbf6c59c3da553c2ba53724ef>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(1379,20): warning C4244: 'argument': conversion from 'const wchar_t' to 'char', possible loss of data
+Process Explorer.obj : error LNK2019: unresolved external symbol _NmOpenCaptureEngine@4 referenced in function _main
+NmApi.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Code\Processor explorer\Debug\Process Explorer.exe : fatal error LNK1120: 1 unresolved externals

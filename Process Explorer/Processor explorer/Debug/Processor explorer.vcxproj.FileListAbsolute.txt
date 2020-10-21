@@ -1,0 +1,2 @@
+D:\Code\Processor explorer\Debug\Process Explorer.pdb
+D:\Code\Processor explorer\Processor explorer\Debug\Process Explorer.pdb
